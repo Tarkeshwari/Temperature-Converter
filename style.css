@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+body {
+    width: auto;
+    height: auto;
+    background: url("./img2.webp") no-repeat center center/cover;
+    display: grid;
+}
+
+form {
+    background-color: rgba(244, 241, 241, 0.53);
+    border-radius: 20px;
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#tempCalc label {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#temp {
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border-radius: 10px;
+}
+
+[type="submit"]:hover {
+    width: 103px;
+    fill: rgb(28, 28, 28);
+}
+
+.btn:hover {
+    background-color: rgb(28, 28, 28);
+}
+
+#resultContainer {
+    font-size: 35px;
+}
